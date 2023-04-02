@@ -1,0 +1,12 @@
+﻿<Window x:Class="Wpf_17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"       
+        xmlns:local="clr-namespace:Wpf_17"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid>
+        <StackPanel>
+            <local:ColorIndex x:Name="colorIndex" HorizontalAlignment="Center" Width="250" Height="60" VerticalAlignment="Top" ColorChanged="colorIndex_ColorChanged_1"/>
+            <TextBlock x:Name="txb" Text="Привет!" Margin="10" Padding="10" Background="#FFFFF8F8"/>
+        </StackPanel>
+    </Grid>
+</Window>
